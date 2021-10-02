@@ -5,10 +5,10 @@ import smtplib
 server=smtplib.SMTP('smtp.gmail.com' , 587)
 server.starttls()
 
-server.login("sender_mail", "password")
+server.login("krishnapal3sep@gmail.com", "kraze92017warrior#159")
 subject = 'Jenkins_Task'
 
-msg = "Your code has been failed"
+msg = "Your code has been failed. Website is not loaded"
 
 server.sendmail("krishnapal3sep@gmail.com", "soulstormekraze19@gmail.com", msg)
 print("Email has been sent successfully !")
