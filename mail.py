@@ -5,7 +5,7 @@ import smtplib
 server=smtplib.SMTP('smtp.gmail.com' , 587)
 server.starttls()
 
-server.login("krishnapal3sep@gmail.com", "kraze92017warrior#159")
+server.login("krishnapal3sep@gmail.com", "kraze92017warrior#")
 subject = 'Jenkins_Task'
 
 msg = "Your code has been failed. Website is not loaded"
