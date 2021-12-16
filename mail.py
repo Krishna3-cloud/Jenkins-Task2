@@ -10,6 +10,6 @@ subject = 'Jenkins_Task'
 
 msg = "Your code has been failed. Website is not loaded"
 
-server.sendmail("krishnapal3sep@gmail.com", "soulstormerkraze19@gmail.com", msg)
+server.sendmail("krishnaa@iul.ac.in", "soulstormerkraze19@gmail.com", msg)
 print("Email has been sent successfully !")
 server.quit()
